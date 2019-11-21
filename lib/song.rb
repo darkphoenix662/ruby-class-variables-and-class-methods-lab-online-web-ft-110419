@@ -49,14 +49,15 @@ class Song
   
   def self.artist_count
     artist_count = {} 
-    dup = nil 
-    @@artists.each do |artist|      
-      artist_count[artist] = (artist_count[artist] || 0) + 1
-      if artist_count[artist] > 0
-        dup = genre 
-        break 
-     end 
-    end
-    return artist_count
-  end
+    
+  #   dup = nil 
+  #   @@artists.each do |artist|      
+  #     artist_count[artist] = (artist_count[artist] || 0) + 1
+  #     if artist_count[artist] > 0
+  #       dup = genre 
+  #       break 
+  #   end 
+  #   end
+  #   return artist_count
+  # end
 end
